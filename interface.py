@@ -1,6 +1,12 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 import streamlit as st
 from streamlit_chat import message as st_message
 from chatbot import pak_law_gpt
+
+
 
 # Introduction
 st.markdown("""## PakConBot
