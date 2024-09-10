@@ -1,0 +1,12 @@
+langchain
+langchain-text-splitters
+langchain-openai
+pypdf 
+langchain_community
+python-dotenv
+chromadb
+langchain-chroma
+fastapi==0.110.1
+uvicorn==0.29.0
+openai==1.7.0
+streamlit
