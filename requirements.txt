@@ -11,4 +11,4 @@ uvicorn==0.29.0
 openai==1.7.0
 streamlit
 streamlit-chat
-pysqlite3-binary
+pysqlite3-binary==0.5.3
